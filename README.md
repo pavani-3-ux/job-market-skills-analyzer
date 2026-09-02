@@ -65,3 +65,39 @@ The final insights are visualized using an interactive **Power BI dashboard**.
              │
              ▼
         Power BI Dashboard
+
+🛠️ Technologies Used
+Python
+Pandas
+Requests
+Regular Expressions
+REST API
+Adzuna Job API
+OpenPyXL
+CSV
+Microsoft Excel
+Power BI
+Git & GitHub
+
+
+📁 Project Structure
+job_market_skills_analyzer/
+│
+├── data/
+│   ├── raw_jobs.csv
+│   ├── raw_jobs.xlsx
+│   ├── cleaned_jobs.csv
+│   ├── cleaned_jobs.xlsx
+│   ├── jobs_with_skills.csv
+│   ├── jobs_with_skills.xlsx
+│   ├── job_market_analysis.xlsx
+│   ├── skill_demand_analysis.csv
+│   └── skill_demand_analysis.xlsx
+│
+├── scraper.py
+├── cleaner.py
+├── skill_extractor.py
+├── analyzer.py
+├── requirements.txt
+├── .gitignore
+└── job_market_skills_analyzer.pbix
